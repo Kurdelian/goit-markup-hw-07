@@ -79,16 +79,16 @@ img {
   font-size: 26px;
   line-height: 1.2;
 } */
-
+/* 
   .logo-header {
   color: #000000;
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 24px;
-}
+} */
 
 /* Site nav */
-.site-nav {
+/* .site-nav {
   display: flex;
 }
 
@@ -129,9 +129,9 @@ img {
 .link-nav:hover, 
 .link-nav:focus {
   color:var(--accent-color);
-}
+} */
 
-.current {
+/* .current {
 color: var(--accent-color);
 }
 
@@ -144,13 +144,13 @@ color: var(--accent-color);
   background-color: var(--accent-color);
   display: block;
   bottom: 0px;
-}
+} */
 
-.logo-part {
+/* .logo-part {
   color: var(--accent-color);
-}
+} */
 
-.header-connection {
+/* .header-connection {
   display: flex;
   margin-left: auto;
 }
@@ -191,10 +191,10 @@ color: var(--accent-color);
   fill: currentColor;
   margin-right: 10px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 /* Hero */
 
-.hero{
+/* .hero{
 text-align: center;
 padding-top: 200px;
 padding-bottom: 200px;
@@ -229,7 +229,7 @@ margin-right: auto;
 }
 
 /* Button */
-.hero-button {
+/* .hero-button {
   font-family:inherit;
   display:inline-block;
   
@@ -238,10 +238,10 @@ margin-right: auto;
   padding-right: 32px;
   padding-left: 32px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
+  } */
 
 
-.portfolio-button {
+/* .portfolio-button {
 color: var(--title-text-color);
 background-color: #F5F4FA;
 font-family:inherit; 
@@ -260,9 +260,9 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cub
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-} 
+}  */
 
-.benefits {
+/* .benefits {
   display: flex;
 }
 
@@ -288,9 +288,9 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cub
 font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
-}
+} */
 
-.icon-box {
+/* .icon-box {
   background-color:#F5F4FA;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -303,9 +303,9 @@ line-height: 1.7;
 
 .icon-benefits {
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+} */
 
-.about-us-section {
+/* .about-us-section {
   padding-top: 0px;
 }
 
@@ -348,9 +348,9 @@ margin-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
-.command {
+/* .command {
   background-color: #F5F4FA;
 }
 
@@ -388,9 +388,9 @@ font-size: 16px;
 line-height: 1.2;
 text-align: center;
 margin-bottom: 16px;
-}
+} */
 
-.social-list {
+/* .social-list {
   display: flex;
   justify-content: center;
 }
@@ -428,9 +428,9 @@ margin-bottom: 16px;
 .social-link:hover .social-icon,
 .social-link:focus .social-icon {
     fill: var(--primary-white-color);
-}
+} */
 
-.clients-list {
+/* .clients-list {
   display: flex;
 }
 
@@ -468,7 +468,7 @@ margin-bottom: 16px;
 .clients-link:focus .clients-icon,
 .clients-link:hover .clients-icon {
   fill: var(--accent-color);
-}
+} */
 
 /* .visually-hidden {
   position: absolute;
@@ -481,7 +481,7 @@ margin-bottom: 16px;
   clip: rect(0 0 0 0);
 } */
 
-.portfolio-list {
+/* .portfolio-list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -493,9 +493,9 @@ margin-bottom: 16px;
 
 .portfolio-list-item:last-child {
   margin-right: 0px;
-}
+} */
 
-.project {
+/* .project {
   display: flex;
   flex-wrap: wrap;
 }
@@ -573,10 +573,10 @@ margin-bottom: 4px;
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.9;
-}
+} */
 
 /* Footer */
-.footer {
+/* .footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -641,9 +641,9 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .connection:hover,
 .connection:focus {
   color: var(--accent-color);
-}
+} */
 
-.mailing-box {
+/* .mailing-box {
   display: flex;
 }
 
@@ -695,9 +695,9 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     top: 13px;
     right: 28px;
     left: 148px;
-  }
+  } */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   width: 100vw;
   height: 100vh;
@@ -717,9 +717,9 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .backdrop.is-hidden .modal {
   transform: scale(2);
-}
+} */
 
-.modal {
+/* .modal {
   width: 528px;
   min-height: 581px;
   background-color: var(--primary-white-color);
@@ -757,9 +757,9 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .icon-close:focus,
 .icon-close:hover {
   fill: var(--accent-color);
-}
+} */
 
-.form-title {
+/* .form-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 20px;
@@ -880,4 +880,4 @@ letter-spacing: 0.01em;
 .imput-checkbox:checked + .form-consent span {
   background-color: var(--accent-color);
   border: var(--accent-color);
-}
+} */
