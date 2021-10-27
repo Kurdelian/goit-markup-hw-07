@@ -9,11 +9,14 @@
 .about-us-list-item {
   margin-right: 30px;
   position: relative;
+  &:last-child {
+    margin-right: 0px;
+  } 
 }
 
-.about-us-list-item:last-child {
-  margin-right: 0px;
-}
+// .about-us-list-item:last-child {
+//   margin-right: 0px;
+// }
 
 .about-us {
 color: var(--title-text-color);
