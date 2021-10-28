@@ -1,4 +1,4 @@
-.form-title {
+.form__title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 20px;
@@ -9,7 +9,7 @@
   width: 448px;
 }
 
-.form-label {
+.form__label {
   display: block;
   margin-bottom: 4px;
   color: var(--primary-text-color);
@@ -19,20 +19,20 @@
   letter-spacing: 0.01em;
 }
 
-.form-field {
+.form__field {
   margin-bottom: 10px;
 }
 
-.form-box {
+.form__box {
   display: block;
   position: relative;
 }
 
-.form-comment {
+.form__container{
   margin-bottom: 20px;
 }
 
-.form-consent {
+.form__label_consent{
   color: var(--primary-text-color);
   font-size: 14px;
   line-height: 1.7;
@@ -50,32 +50,19 @@
     align-items: center;
     justify-content: center;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    .imput-checkbox:checked + & {
+    .form__checkbox_passive:checked + & {
       background-color: var(--accent-color);
       border: var(--accent-color);
     }
   }
 }
 
-// .form-consent span {
-//   width: 16px;
-//   height: 15px;
-//   border: 2px solid var(--title-text-color);
-//   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-//   border-radius: 3px;
-//   margin-right: 8.38px;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-// }
-
-.form-link {
+.form__link {
   color: var(--accent-color);
   text-decoration: underline;
 }
 
-.form-button {
+.form__button {
 letter-spacing: 0.06em;
 font-weight: 400;
 min-width: 89px;
@@ -87,7 +74,7 @@ display: block;
 margin: 0 auto;
 }
 
-.form-input {
+.form__input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -101,27 +88,23 @@ margin: 0 auto;
 }
 }
 
-// .form-input:focus + .form-icon {
-//   fill: var(--accent-color);
-// }
-
-.form-icon {
+.form__icon {
   position: absolute;
   left: 11px;
   top: 50%;
   transform: translateY(-50%);
   fill: var(--title-text-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  .form-input:focus + & {
+  .form__input:focus + & {
     fill: var(--accent-color);
   }
 }
 
-.form-checkbox {
+.form__checkbox {
   margin-bottom: 30px;
 }
 
-.comment {
+.form__texarea {
   display: block;
   resize: none;
   width: 100%;
@@ -136,17 +119,3 @@ margin: 0 auto;
     letter-spacing: 0.01em;
     }
 }
-
-// .comment::placeholder {
-// font-weight: 400;
-// font-size: 12px;
-// line-height: 1.7;
-// letter-spacing: 0.01em;
-// }
-
-// .imput-checkbox {
-//   &:checked + .form-consent span {
-//   background-color: var(--accent-color);
-//   border: var(--accent-color);
-//   }
-// }

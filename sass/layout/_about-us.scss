@@ -1,12 +1,12 @@
-.about-us-section {
+.about-us {
   padding-top: 0px;
 }
 
-.about-us-list {
+.about-us__list {
   display: flex;
 }
 
-.about-us-list-item {
+.about-us__item {
   margin-right: 30px;
   position: relative;
   &:last-child {
@@ -14,20 +14,7 @@
   } 
 }
 
-// .about-us-list-item:last-child {
-//   margin-right: 0px;
-// }
-
-.about-us {
-color: var(--title-text-color);
-font-weight: 700;
-font-size: 36px;
-line-height: 1.7;
-text-align: center;
-margin-bottom: 50px;
-}
-
-.about-us-text {
+.about-us__text {
   position: absolute;
   left: 0%;
   bottom: 0%;

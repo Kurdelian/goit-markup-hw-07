@@ -10,7 +10,7 @@
     padding: 40px;
   }
   
-  .close-btn {
+  .modal__button {
       position: absolute;
       right: 8px;
       top: 8px;
@@ -24,7 +24,7 @@
       cursor: pointer;
   }
   
-  .icon-close {
+  .modal__icon{
     fill: #000000;
     position: absolute;
     top: 50%;
@@ -37,7 +37,3 @@
       }
   }
   
-  // .icon-close:focus,
-  // .icon-close:hover {
-  //   fill: var(--accent-color);
-  // }

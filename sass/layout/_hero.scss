@@ -13,12 +13,7 @@
     margin-right: auto;
     }
     
-    // .hero,
-    // .footer {
-    //   background-color: #2F303A;
-    // }
-    
-    .hero-title {
+    .hero__title {
      color: var(--primary-white-color);
      font-weight: 900;
      font-size: 44px;
@@ -32,7 +27,7 @@
      margin-right: auto;
     }
     
-    .hero-button {
+    .hero__button {
       font-family:inherit;
       display:inline-block;
       
